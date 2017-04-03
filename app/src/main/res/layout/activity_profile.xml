@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background_color_profile"
+    tools:context="com.hirebuddy.activity.ProfileActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:textColor="@color/white"
+        android:background="@color/header"
+        android:textSize="@dimen/sp_20"
+        android:text="@string/profile_info"
+        android:gravity="center"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginBottom="@dimen/dp_20">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_200"
+        android:gravity="center">
+        <ImageView
+            android:id="@+id/img_backimage"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_200"
+            android:src="@drawable/banner"
+            android:scaleType="fitXY"
+            />
+        <!--<ImageView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="@dimen/dp_200"-->
+            <!--android:background="@color/blurr"-->
+            <!--/>-->
+    <com.hirebuddy.util.CircleImageView
+        android:id="@+id/circular_image_pofile"
+        android:layout_width="@dimen/dp_100"
+        android:layout_height="@dimen/dp_110"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/appicon"
+        />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/cam"
+            android:layout_alignBottom="@+id/circular_image_pofile"
+            android:layout_alignRight="@+id/circular_image_pofile"
+            android:layout_marginRight="@dimen/dp_10"
+            android:layout_marginBottom="@dimen/dp_10"
+            />
+        <ImageView
+            android:id="@+id/img_coveruicon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/cam"
+            android:layout_alignBottom="@+id/img_backimage"
+            android:layout_alignRight="@+id/img_backimage"
+            android:layout_marginRight="@dimen/dp_10"
+            android:layout_marginBottom="@dimen/dp_10"
+            />
+
+    </RelativeLayout>
+
+
+
+    <!--FIRST NAME-->
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/til_fname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_5"
+            android:textColorHint="@color/black">
+    <EditText
+        android:id="@+id/edt_first_name_profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        style="@style/edittextstyle"
+        android:hint="@string/first_name"
+        android:drawableLeft="@drawable/user"
+        android:drawablePadding="@dimen/dp_7"
+        android:imeOptions="actionNext"
+        android:inputType="textCapWords"
+        android:maxLines="1"
+        android:background="@android:color/transparent"
+        android:digits="@string/a_z"
+        />
+        </android.support.design.widget.TextInputLayout>
+
+    <!--LINE 1-->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_1"
+        android:background="@color/grey"
+        android:layout_marginStart="@dimen/dp_52"
+        android:layout_marginEnd="@dimen/dp_30"
+        />
+
+    <!--LAST NAME-->
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/black"
+        >
+        <EditText
+            android:id="@+id/edt_last_name_profile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            style="@style/edittextstyle"
+            android:hint="@string/last_name"
+            android:drawableLeft="@drawable/user"
+            android:drawablePadding="@dimen/dp_7"
+            android:textColorHint="@color/black"
+            android:imeOptions="actionDone"
+            android:inputType="textCapWords"
+            android:maxLines="1"
+            android:background="@android:color/transparent"
+            android:digits="@string/a_z"
+            />
+    </android.support.design.widget.TextInputLayout>
+
+    <!--LINE 2-->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_1"
+        android:background="@color/grey"
+        android:layout_marginStart="@dimen/dp_52"
+        android:layout_marginEnd="@dimen/dp_30"
+        />
+
+    <LinearLayout
+        android:id="@+id/ll_dob"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <!--DATE OF BIRTH-->
+    <TextView
+        android:id="@+id/txt_dob"
+        android:text="@string/date_of_birth"
+        android:textSize="@dimen/sp_12"
+        android:textColor="@color/yellow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dp_55"
+        android:layout_marginEnd="@dimen/dp_20"
+        android:layout_marginTop="@dimen/dp_10"/>
+        <TextView
+            android:id="@+id/txt_dob_profile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:drawableStart="@drawable/calender"
+            android:drawablePadding="@dimen/dp_7"
+            android:text="@string/ddmmyy"
+            android:enabled="false"
+            android:layout_marginStart="@dimen/dp_20"
+            android:layout_marginEnd="@dimen/dp_20"
+            android:textColorHint="@color/yellow"
+            android:padding="@dimen/dp_10"/>
+    </LinearLayout>
+    <!--LINE 3-->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_1"
+        android:background="@color/grey"
+        android:layout_marginStart="@dimen/dp_52"
+        android:layout_marginEnd="@dimen/dp_30"
+        />
+
+    <!--<CalendarView-->
+        <!--android:id="@+id/calender_view"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:visibility="gone"-->
+        <!--android:background="@color/colorAccent"-->
+        <!--/>-->
+
+    <DatePicker
+        android:id="@+id/date_picker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:visibility="gone"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/gender"
+        android:textColor="@color/yellow"
+        android:textSize="@dimen/sp_12"
+        android:layout_marginLeft="@dimen/sp_47"
+        android:layout_marginTop="@dimen/dp_10"
+        />
+
+    <!--GENDER-->
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/gender"
+        android:padding="@dimen/dp_12"
+        android:layout_marginLeft="@dimen/dp_13"
+        />
+
+    <RadioGroup
+        android:id="@+id/rg_gender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:checkedButton="@+id/rb_male_profile">
+
+        <RadioButton
+            android:id="@+id/rb_male_profile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/male"
+            android:textColor="@color/black"
+            android:textSize="@dimen/sp_15"
+            android:padding="@dimen/sp_10"
+            android:layout_weight="1"
+            android:buttonTint="@color/yellow"/>
+
+        <RadioButton
+            android:id="@+id/rb_female_profile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/female"
+            android:textColor="@color/black"
+            android:textSize="@dimen/sp_15"
+            android:padding="@dimen/sp_10"
+            android:layout_weight="1"
+            android:buttonTint="@color/yellow"/>
+
+    </RadioGroup>
+</LinearLayout>
+    <!--GENDER END-->
+
+    <!--LINE 4-->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_1"
+        android:background="@color/grey"
+        android:layout_marginStart="@dimen/dp_52"
+        android:layout_marginEnd="@dimen/dp_30"
+        />
+
+
+    <!--EMAIL-->
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/black"
+        >
+        <EditText
+            android:id="@+id/edt_email_profile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            style="@style/edittextstyle"
+            android:hint="@string/email"
+            android:drawableLeft="@drawable/email"
+            android:drawablePadding="@dimen/dp_7"
+            android:textColorHint="@color/yellow"
+            android:inputType="textWebEmailAddress"
+            android:maxLines="1"
+            android:background="@android:color/transparent"
+            />
+    </android.support.design.widget.TextInputLayout>
+
+    <!--LINE 5-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_1"
+        android:background="@color/grey"
+        android:layout_marginStart="@dimen/dp_52"
+        android:layout_marginEnd="@dimen/dp_30"
+        />
+
+    <!--NEXT-->
+    <Button
+        style="@style/ButtonStyle"
+        android:layout_width="@dimen/dp_200"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_30"
+        android:text="@string/next"
+        android:textColor="@color/black"
+        android:background="@drawable/fill_button_pressed_selector"
+        android:textAllCaps="false"
+        android:onClick="next"
+        android:layout_gravity="center"
+        android:layout_marginBottom="@dimen/dp_10"
+        />
+
+</LinearLayout>
+    </ScrollView>
+</LinearLayout>

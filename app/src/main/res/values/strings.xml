@@ -1,0 +1,198 @@
+<resources>
+    <string name="app_name">HireBuddy</string>
+
+
+    ******************LOGIN********************
+    <string name="login">Login</string>
+    <string name="login_screen_logo">Login Screen Logo</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="phone_number_em">Phone Number/ Email/ Buddy-Id</string>
+    <string name="enter_your_buddy_pin">Enter your Buddy PIN</string>
+    <string name="forgot_buddy_pin">Forgot Buddy PIN?</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="sign_up_as">Sign Up As</string>
+    <string name="customer">Customer</string>
+    <string name="buddy">Buddy</string>
+    <string name="applogo">App Logo</string>
+    <string name="join_as">Join As</string>
+    <string name="please_enter_your_phone_number">Please enter your Phone number</string>
+    <string name="t_n_c"><u>"View Terms &amp; Conditions"></u></string>
+    <string name="_91">+91</string>
+    <string name="applogo_sign_up">App Logo Sign Up</string>
+    <string name="already_a_member_login_here"><u>Already a member? <b>Login Here</b></u></string>
+
+
+    *******************SIGN UP**********************
+    <string-array name="country_code">
+        <item><u>+91</u></item>
+        <item><u>+92</u></item>
+    </string-array>
+
+    ******************FORGOT BUDDY PIN********************
+    <string name="fbp">Forgot Buddy PIN</string>
+    <string name="eeorpn">Enter Email-Id or Phone Number</string>
+
+
+    //***********Upload Your Image*************//
+    <string name="upimg">Upload Your Image</string>
+    <string name="camera">Camera</string>
+    <string name="drive">Drive</string>
+    <string name="gallery">Gallery</string>
+    <string name="choose">Choose</string>
+    <string name="cancel">Cancel</string>
+
+
+    **********************PROFILE***************************
+
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="ddmmyy">DD/MM/YYYY</string>
+    <string name="date_of_birth">Date Of Birth</string>
+    <string name="gender">Gender</string>
+    <string name="female">Female</string>
+    <string name="male">Male</string>
+    <string name="others">Others</string>
+    <string name="email">Email</string>
+    <string name="next">Next</string>
+
+    *****************Verification*****************
+    <string name="verify_yourself">Verify yourself</string>
+    <string name="peotp_phone">Please enter One Time Password that was send to your Registered Phone Number</string>
+    <string name="peotp_email">Please enter One Time Password that was send to your Registered E-mail</string>
+    <string name="peotp_buddy_id">Please enter One Time Password that was send to your Registered Phone Number and E-mail</string>
+    <string name="valid_buddy_id">Please enter valid Buddy Id</string>
+    <string name="eotp">Enter OTP</string>
+    <string name="resend">Resend</string>
+    <string name="verify">Verify</string>
+    <string name="enter_buddy_pin">Enter Buddy PIN</string>
+    <string name="new_buddy_pin">New Buddy PIN</string>
+    <string name="confirm_buddy_pin">Confirm Buddy PIN</string>
+    <string name="create">Create</string>
+    <string name="create_buddy_pin">Create Buddy PIN</string>
+    <string name="resendotp">OTP will be send to your registered phone number and email address</string>
+    <string name="potp">Please enter the OTP</string>
+
+    *****************Forgot Password*****************
+
+    *****************Social Media Verification*****************
+
+    <string name="smv">Social Media Verification</string>
+    <string name="plsmv">Please login into the social accounts and verify yourself</string>
+    <string name="fb">Facebook</string>
+    <string name="twitter">Twitter</string>
+    <string name="lin">Linkedin</string>
+    <string name="insta">Instagram</string>
+    <string name="gplus">Google +</string>
+    <string name="skip"><u>Skip</u></string>
+    <string name="ifuskip">If you skip this step you will get limited number of tasks</string>
+    <string name="ifuskipl">If you skip this step you will get limited access</string>
+    <string name="verified">Verified</string>
+
+    *********************RESET BUDDY PIN**************************
+    <string name="reset_buddy_pin">Reset Buddy PIN</string>
+    <string name="matched">Matched</string>
+    <string name="otp_description">OTP will be send to your registered phone number and email address</string>
+    <string name="otp_description_email">OTP will be send to your registered email address</string>
+    <string name="otp_description_phone">OTP will be send to your registered phone number</string>
+    <string name="ok">Ok</string>
+    <string name="_9518617464834">+9518617464834</string>
+    <string name="profile_info">Profile Info</string>
+    <string name="skip_social_verification">If you skip Social verification then you are permitted to book limited services</string>
+
+
+    *****************Key Code Verification*****************
+    <string name="kcv">Key-Code Verification</string>
+    <string name="gkc">Generate Key-Code!</string>
+    <string name="generate">Generate</string>
+    <string name="uploadpho">Upload Photo</string>
+    <string name="tacs">Take a clear selfie of yours with the above generated key-code written on a piece of paper</string>
+    <string name="done">Done</string>
+    <string name="contin">Continue</string>
+    <string name="refresh_code"><u>Refresh Code</u></string>
+
+
+    *****************Reference Contacts*****************
+    <string name="rc">Reference Contacts</string>
+    <string name="pecd">Please enter the contact details of any two reference with whom we can contact in case of emergency</string>
+    <string name="contact1">Contact 1</string>
+    <string name="contact2">Contact 2</string>
+    <string name="entername">Enter Name<font color="red" fgcolor="#FFFF0000">*</font></string>
+    <string name="enterphone">Enter Phone Number<font color="red" fgcolor="#FFFF0000">*</font></string>
+    <string name="finish">Finish</string>
+
+
+    *****************Id Proof*****************
+    <string name="idproof">Identity Proof</string>
+    <string name="inOrder">In order to get your account confirmed, you need to upload the identity proofs</string>
+    <string name="cit">Choose identity type</string>
+    <string name="aproof">Address Proof</string>
+    <string name="choose_address_proof">Choose Addess Proof</string>
+    <string name="caddtype">Choose address type</string>
+
+    *****************Security Questions*****************
+    <string name="sq">Security Questions</string>
+    <string name="pstsq">Please select two security questions and enter your answers</string>
+    <string name="queso">Question 1</string>
+    <string name="quest">Question 2</string>
+    <string name="syq">Select your question</string>
+    <string name="eyq">Enter your question</string>
+    <string name="eya">Enter your answer</string>
+    <string name="other">Other</string>
+
+    *****************Police Verification*****************
+    <string name="pv">Police Verification</string>
+    <string name="duhpv">Do you have Police Verification?</string>
+    <string name="duhrbid">Do you have reference Buddy id?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="upvp">Upload Police Verification proof</string>
+    <string name="vp">Verification Proof</string>
+    <string name="nfs">No file selected</string>
+    <string name="erbid">Enter Reference Buddy id</string>
+    <string name="nrid"><u>Submit police verification or reference Buddy-ID later to get more tasks</u></string>
+
+
+    *****************LOGIN POP UP TEMPORARY BUDDY*****************
+    <string name="temporary_buddy">Temporary Buddy</string>
+    <string name="permanent_buddy">Permanent Buddy</string>
+    <string name="you_want_to_become_a">You Want to become a</string>
+    <string name="key_code_verification">Key-Code Verification</string>
+    <string name="h_t_b_t8_t6_t6_t8_t">H \t B \t 8 \t 6 \t 6 \t 8</string>
+
+    <string name="send">Send</string>
+
+
+    *****************Toast Messages*****************
+    <string name="peyfn">Please enter your First Name</string>
+    <string name="peyln">Please enter your Last Name</string>
+    <string name="peyei">Please enter your Email-Id</string>
+    <string name="pevei">Please enter a Valid Email-Id</string>
+    <string name="pevbi">Please enter a Valid Buddy-Id of 10 digits</string>
+    <string name="pedob">Please enter your Date of Birth</string>
+    <string name="peypn">Please enter your Phone Number</string>
+    <string name="puyip">Please Upload your Identity Proof</string>
+    <string name="puyipwtgkc">Please Upload your Image with the Generated Key-Code written on a piece of paper</string>
+    <string name="psyip">Please Select your Identity Proof</string>
+    <string name="psyit">Please Select your Identity Type</string>
+    <string name="puyap">Please Upload your Address Proof</string>
+    <string name="psyap">Please Select your Address Proof Type</string>
+    <string name="pnmb">Phone Number should be of 10 digits long</string>
+    <string name="pcbp">Please Enter 6 digits Code to create your Buddy PIN</string>
+    <string name="pebp">Please Enter the 6 digits Buddy PIN</string>
+    <string name="pecbp">Please Enter the 6 digits Confirm Buddy PIN to Create Your Buddy PIN</string>
+    <string name="pdnm">PINS do not match</string>
+    <string name="psysq">Please select your Security Question</string>
+    <string name="peysq">Please enter your Security Question</string>
+    <string name="peasq">Please enter answer of the Security Question</string>
+    <string name="pupv">Please upload Police Verification document</string>
+    <string name="pus">Please upload an Image with the Generated Code</string>
+    <string name="puyi">Please upload your Image</string>
+    <string name="puic">Please upload Id-Proof of given Contact</string>
+    <string name="pgkc">Please Generate Key-Code</string>
+    <string name="Search">Search</string>
+    <string name="invemail">Invalid Email</string>
+    <string name="bcsutnc">By clicking on Signup, you confirm/agree that you accept the\n\nTerms and conditions\tand \tPrivacy Policy</string>
+    <string name="a_z"> abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ </string>
+    <string name="zero_9">1234567890</string>
+    <string name="crs">Customer Registration Successful</string>
+</resources>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_role_selection"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+    tools:context="com.hirebuddy.activity.RoleSelectionActivity">
+
+    <ImageView
+        android:contentDescription="@string/applogo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo"
+        android:layout_margin="@dimen/dp_50"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/join_as"
+        android:textSize="@dimen/sp_22"
+        android:textColor="@color/white"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/btn_rs_cust"
+        android:layout_marginTop="@dimen/dp_50"
+        android:layout_width="@dimen/dp_200"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        style="@style/ButtonStyle"
+        android:text="@string/customer"
+        android:onClick="customerLogin"
+        android:background="@drawable/not_fill_button_pressed_selector"
+        />
+    <Button
+        android:id="@+id/btn_rs_buddy"
+        android:layout_marginTop="@dimen/dp_25"
+        android:layout_width="@dimen/dp_200"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        style="@style/ButtonStyle"
+        android:text="@string/buddy"
+        android:onClick="buddy"
+        android:background="@drawable/not_fill_button_pressed_selector"
+        />
+
+
+</LinearLayout>

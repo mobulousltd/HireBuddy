@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:gravity="center"
+    android:id="@+id/rl_root"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/countryCodePopupContainer_cpup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="UselessParent">
+
+        <RelativeLayout
+            android:id="@+id/primumpop_cpup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dp_20"
+            android:background="@drawable/yellow_r_cd_white"
+            android:padding="@dimen/dp_20">
+
+
+            <TextView
+                android:id="@+id/tvpp_cpup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/dp_25"
+                android:gravity="center"
+                android:text="@string/upimg"
+                android:textColor="@color/black"
+                android:textSize="@dimen/sp_18" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvpp_cpup"
+                android:layout_marginBottom="@dimen/dp_10"
+                android:layout_marginTop="@dimen/dp_30"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <TextView
+                    android:id="@+id/buttoncamera_cpup"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/camera"
+                    android:layout_margin="@dimen/dp_5"
+                    android:gravity="center"
+                    android:padding="@dimen/dp_10"
+                    android:textColor="@color/yellow"
+                    android:drawablePadding="@dimen/dp_5"
+                    android:textSize="@dimen/sp_16"
+                    android:background="@android:drawable/dialog_holo_light_frame"
+                    android:drawableTop="@drawable/camera_icon"
+                    />
+
+                <TextView
+                    android:id="@+id/buttongallery_cpup"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/gallery"
+                    android:gravity="center"
+                    android:padding="@dimen/dp_10"
+                    android:layout_margin="@dimen/dp_5"
+                    android:textColor="@color/yellow"
+                    android:textSize="@dimen/sp_16"
+                    android:drawableTop="@drawable/photo_library_black"
+                    android:drawablePadding="@dimen/dp_5"
+                    android:background="@android:drawable/dialog_holo_light_frame"
+                    />
+
+
+            </LinearLayout>
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/cancelbutton_cpup"
+        android:layout_width="@dimen/dp_30"
+        android:layout_height="@dimen/dp_30"
+        android:text="x"
+        android:background="@drawable/circle"
+        android:layout_alignParentRight="true"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_marginTop="@dimen/dp_10"
+        android:layout_marginRight="@dimen/dp_10"
+        android:textColor="@color/yellow"
+        android:textSize="@dimen/sp_20" />
+
+</RelativeLayout>

@@ -1,0 +1,207 @@
+<countries>
+  <country code='af' phoneCode='93' name='Afghanistan' lng1='60.50526' lat1='29.394159' lng2='74.898827' lat2='38.453041' />
+  <country code='al' phoneCode='355' name='Albania' lng1='19.28249' lat1='39.667759' lng2='21.053049' lat2='42.661369' />
+  <country code='dz' phoneCode='213' name='Algeria' lng1='-8.669294' lat1='18.976379' lng2='11.98645' lat2='37.083599' />
+  <country code='ad' phoneCode='376' name='Andorra' lng1='1.435247' lat1='42.4361' lng2='1.781667' lat2='42.65387' />
+  <country code='ao' phoneCode='244' name='Angola' lng1='11.73111' lat1='-18.01173' lng2='24.06221' lat2='-4.388889' />
+  <country code='aq' phoneCode='672' name='Antarctica' lng1='' lat1='' lng2='' lat2='' />
+  <country code='ar' phoneCode='54' name='Argentina' lng1='-73.58168' lat1='-55.04528' lng2='-53.65028' lat2='-21.78751' />
+  <country code='am' phoneCode='374' name='Armenia' lng1='43.47324' lat1='38.844219' lng2='46.622501' lat2='41.298599' />
+  <country code='aw' phoneCode='297' name='Aruba' lng1='-70.06' lat1='12.4' lng2='-69.863' lat2='12.63' />
+  <country code='au' phoneCode='61' name='Australia' lng1='112.908302' lat1='-43.64806' lng2='153.619995' lat2='-10.71056' />
+  <country code='at' phoneCode='43' name='Austria' lng1='9.54041' lat1='46.387489' lng2='17.179899' lat2='49.01582' />
+  <country code='az' phoneCode='994' name='Azerbaijan' lng1='44.77858' lat1='38.390541' lng2='50.384991' lat2='41.896702' />
+  <country code='bh' phoneCode='973' name='Bahrain' lng1='50.466099' lat1='25.79055' lng2='50.613041' lat2='26.24028' />	
+  <country code='bd' phoneCode='880' name='Bangladesh' lng1='88.043297' lat1='20.7486' lng2='92.669418' lat2='26.625271' />
+  <country code='by' phoneCode='375' name='Belarus' lng1='19.636511' lat1='51.2528' lng2='32.741402' lat2='56.167801' />			
+  <country code='be' phoneCode='32' name='Belgium' lng1='2.541667' lat1='2.541667' lng2='6.400277' lat2='51.502769' />
+  <country code='bz' phoneCode='501' name='Belize' lng1='89.217773' lat1='15.88972' lng2='-88.08223' lat2='18.48971' />
+  <country code='bj' phoneCode='229' name='Benin' lng1='0.776667' lat1='6.210679' lng2='3.855' lat2='12.39332' />
+  <country code='bt' phoneCode='975' name='Bhutan' lng1='88.750549' lat1='26.70138' lng2='92.11441' lat2='28.32333' />
+  <country code='bo' phoneCode='591' name='Bolivia' lng1='69.652496' lat1='-22.901119' lng2='-57.45861' lat2='-9.682777' />
+  <country code='ba' phoneCode='387' name='Bosnia And Herzegovina' lng1='15.7364' lat1='42.564522' lng2='19.619699' lat2='45.276901' />
+  <country code='bw' phoneCode='267' name='Botswana' lng1='19.995819' lat1='-26.89468' lng2='29.370529' lat2='-17.797661' />
+  <country code='br' phoneCode='55' name='Brazil' lng1='74.009453' lat1='-33.74773' lng2='-34.79945' lat2='5.273609' />
+  <country code='bn' phoneCode='673' name='Brunei Darussalam' lng1='114.09100' lat1='4.027776' lng2='115.360199' lat2='5.053054' />
+  <country code='bg' phoneCode='359' name='Bulgaria' lng1='22.35944' lat1='41.254429' lng2='28.60638' lat2='44.243061' />
+  <country code='bf' phoneCode='226' name='Burkina Faso' lng1='-5.52066' lat1='9.396385' lng2='2.401563' lat2='15.08305' />
+  <country code='bi' phoneCode='257' name='Burundi' lng1='28.98749' lat1='-4.454723' lng2='30.85388' lat2='-2.299445' />
+  <country code='kh' phoneCode='855' name='Cambodia' lng1='102.35140' lat1='10.00972' lng2='107.636398' lat2='14.70496' />
+  <country code='cm' phoneCode='237' name='Cameroon' lng1='8.502497' lat1='1.654166' lng2='16.206409' lat2='13.08472' />
+  <country code='ca' phoneCode='1' name='Canada' lng1='' lat1='41.913319' lng2='-52.616669' lat2='83.113327' />
+  <country code='cv' phoneCode='238' name='Cape Verde' lng1='-25.36056' lat1='14.81222' lng2='-22.6725' lat2='17.19166' />
+  <country code='cf' phoneCode='236' name='Central African Republic' lng1='14.41444' lat1='2.221102' lng2='27.45805' lat2='11.00139' />
+  <country code='td' phoneCode='235' name='Chad' lng1='13.46222' lat1='7.457776' lng2='23.99971' lat2='23.45055' />
+  <country code='cl' phoneCode='56' name='Chile' lng1='-75.715561' lat1='-55.72057' lng2='-67.001106' lat2='-17.50528' />
+  <country code='cn' phoneCode='86' name='China' lng1='73.623863' lat1='18.168881' lng2='134.772201' lat2='53.553871' />
+  <country code='cx' phoneCode='61' name='Christmas Island' lng1='' lat1='' lng2='' lat2='' />
+  <country code='cc' phoneCode='61' name='Cocos (keeling) Islands' lng1='' lat1='' lng2='' lat2='' />
+  <country code='co' phoneCode='57' name='Colombia' lng1='-79.051681' lat1='-4.224228' lng2='-66.873383' lat2='12.45833' />
+  <country code='km' phoneCode='269' name='Comoros' lng1='43.214432' lat1='-12.37084' lng2='44.526661' lat2='-11.37111' />
+  <country code='cg' phoneCode='242' name='Congo' lng1='11.14151' lat1='-5.020615' lng2='18.642219' lat2='3.710833' />
+  <country code='cd' phoneCode='243' name='Congo, The Democratic Republic Of The' lng1='12.20966' lat1='-13.45195' lng2='31.277451' lat2='5.347498' />
+  <country code='ck' phoneCode='682' name='Cook Islands' lng1='' lat1='' lng2='' lat2='' />
+  <country code='cr' phoneCode='506' name='Costa Rica' lng1='-85.89862' lat1='8.026709' lng2='-82.565193' lat2='11.21361' />
+  <country code='hr' phoneCode='385' name='Croatia' lng1='13.49639' lat1='42.398319' lng2='19.4261' lat2='46.541698' />
+  <country code='cu' phoneCode='53' name='Cuba' lng1='-84.953339' lat1='19.821939' lng2='-74.131943' lat2='23.18638' />
+  <country code='cy' phoneCode='357' name='Cyprus' lng1='32.269161' lat1='34.56332' lng2='34.581661' lat2='35.67165' />
+  <country code='cz' phoneCode='420' name='Czech Republic' lng1='12.09347' lat1='48.57555' lng2='18.871652' lat2='51.031368' />
+  <country code='dk' phoneCode='45' name='Denmark' lng1='8.091389' lat1='54.570271' lng2='12.61806' lat2='57.74416' />
+  <country code='dj' phoneCode='253' name='Djibouti' lng1='41.759708' lat1='10.97083' lng2='43.419991' lat2='12.70889' />
+  <country code='tl' phoneCode='670' name='East Timor (Timor-leste)' lng1='' lat1='' lng2='' lat2='' />
+  <country code='ec' phoneCode='593' name='Ecuador' lng1='-91.666122' lat1='-5.003335' lng2='-75.218613' lat2='1.437926' />
+  <country code='eg' phoneCode='20' name='Egypt' lng1='24.706381' lat1='21.99666' lng2='35.813042' lat2='31.63933' />
+  <country code='sv' phoneCode='503' name='El Salvador' lng1='-90.105827' lat1='13.15666' lng2='-87.695267' lat2='14.45166' />
+  <country code='gq' phoneCode='240' name='Equatorial Guinea' lng1='9.357498' lat1='1.001944' lng2='11.35389' lat2='2.346065' />
+  <country code='er' phoneCode='291' name='Eritrea' lng1='36.443859' lat1='12.36389' lng2='43.12331' lat2='18.0089' />
+  <country code='ee' phoneCode='372' name='Estonia' lng1='21.83194' lat1='57.522202' lng2='28.195299' lat2='59.66832' />
+  <country code='et' phoneCode='251' name='Ethiopia' lng1='32.989429' lat1='3.406666' lng2='47.98943' lat2='14.867343' />
+  <country code='fk' phoneCode='500' name='Falkland Islands (malvinas)' lng1='-61.030811' lat1='-52.339451' lng2='-57.731392' lat2='-51.25861' />
+  <country code='fo' phoneCode='298' name='Faroe Islands' lng1='-7.2325' lat1='61.933319' lng2='-6.5675' lat2='62.330269' />
+  <country code='fj' phoneCode='679' name='Fiji' lng1='177.256302' lat1='-19.1614' lng2='179.989502' lat2='-16.152691' />
+  <country code='fi' phoneCode='358' name='Finland' lng1='19.648331' lat1='59.804989' lng2='31.587299' lat2='70.079422' />
+  <country code='fr' phoneCode='33' name='France' lng1='-4.790556' lat1='41.366379' lng2='9.543055' lat2='51.091099' />
+  <country code='pf' phoneCode='689' name='French Polynesia' lng1='-149.641693' lat1='-17.87084' lng2='-149.148895' lat2='-17.499451' />
+  <country code='ga' phoneCode='241' name='Gabon' lng1='8.706387' lat1='-3.922898' lng2='14.51861' lat2='2.317276' />
+  <country code='gm' phoneCode='220' name='Gambia' lng1='-16.826389' lat1='13.03709' lng2='-13.79861' lat2='13.82638' />
+  <country code='ge' phoneCode='995' name='Georgia' lng1='40.006512' lat1='41.046101' lng2='46.7108' lat2='43.584702' />
+  <country code='de' phoneCode='49' name='Germany' lng1='5.869443' lat1='47.281101' lng2='15.03805' lat2='54.9174' />
+  <country code='gh' phoneCode='233' name='Ghana' lng1='' lat1='' lng2='' lat2='' />
+  <country code='gi' phoneCode='350' name='Gibraltar' lng1='' lat1='' lng2='' lat2='' />
+  <country code='gr' phoneCode='30' name='Greece' lng1='19.627501' lat1='34.929989' lng2='28.24222' lat2='41.744431' />
+  <country code='gl' phoneCode='299' name='Greenland' lng1='-73.043083' lat1='59.7911' lng2='-12.15528' lat2='83.623032' />
+  <country code='gt' phoneCode='502' name='Guatemala' lng1='-92.245941' lat1='13.74547' lng2='-88.213059' lat2='17.82111' />
+  <country code='gn' phoneCode='224' name='Guinea' lng1='-15.07861' lat1='3.21361' lng2='8.961386' lat2='12.66603s' />
+  <country code='gw' phoneCode='245' name='Guinea-bissau' lng1='-16.677811' lat1='10.92389' lng2='-13.64417' lat2='12.68472' />
+  <country code='gy' phoneCode='592' name='Guyana' lng1='-61.389999' lat1='1.185555' lng2='-56.470909' lat2='8.533598' />
+  <country code='ht' phoneCode='509' name='Haiti' lng1='-74.476959' lat1='18.02277' lng2='-71.62944' lat2='19.93277' />
+  <country code='hn' phoneCode='504' name='Honduras' lng1='-89.354874' lat1='12.98741' lng2='-83.130867' lat2='16.020269' />
+  <country code='hk' phoneCode='852' name='Hong Kong' lng1='113.896599' lat1='22.2775' lng2='114.389999' lat2='22.548849' />
+  <country code='hu' phoneCode='36' name='Hungary' lng1='16.106701' lat1='45.760349' lng2='22.894859' lat2='48.575821' />
+  <country code='in' phoneCode='91' name='India' lng1='68.139977' lat1='6.748887' lng2='97.394127' lat2='35.986099' />
+  <country code='id' phoneCode='62' name='Indonesia' lng1='95.198593' lat1='-10.93' lng2='141.008301' lat2='5.653888' />
+  <country code='ir' phoneCode='98' name='Iran' lng1='44.034161' lat1='25.07527' lng2='63.341931' lat2='39.78054' />
+  <country code='iq' phoneCode='964' name='Iraq' lng1='38.794552' lat1='' lng2='48.545181' lat2='37.38443' />
+  <country code='ie' phoneCode='353' name='Ireland' lng1='-10.47278' lat1='51.44582' lng2='-5.994722' lat2='55.377209' />
+  <country code='im' phoneCode='44' name='Isle Of Man' lng1='-4.784167' lat1='54.056931' lng2='-4.308612' lat2='54.409161' />
+  <country code='il' phoneCode='972' name='Israel' lng1='34.267078' lat1='29.49379' lng2='35.669708' lat2='33.290272' />
+  <country code='it' phoneCode='39' name='Italy' lng1='6.620172' lat1='36.650829' lng2='18.51083' lat2='47.090542' />
+  <country code='ci' phoneCode='225' name='Ivory Coast(Côte D&apos;ivoire)' lng1='' lat1='' lng2='' lat2='' />
+  <country code='jp' phoneCode='81' name='Japan' lng1='127.652801' lat1='26.07888' lng2='145.818298' lat2='45.50552' />
+  <country code='jo' phoneCode='962' name='Jordan' lng1='34.88443' lat1='29.188881' lng2='39.303081' lat2='33.377232' />
+  <country code='kz' phoneCode='7' name='Kazakhstan' lng1='46.499199' lat1='40.591099' lng2='87.345329' lat2='55.444698' />
+  <country code='ke' phoneCode='254' name='Kenya' lng1='33.951382' lat1='-4.673122' lng2='41.913639' lat2='4.622081' />
+  <country code='ki' phoneCode='686' name='Kiribati' lng1='-157.5681' lat1='1.705' lng2='-157.191101' lat2='2.026666' />
+  <country code='kp' phoneCode='850' name='Korea' lng1='124.323601' lat1='37.680271' lng2='130.694794' lat2='42.980541' />
+  <country code='kr' phoneCode='82' name='Korea, Republic Of Korea' lng1='126.123596' lat1='33.190269' lng2='129.5858' lat2='38.622532' />
+  <country code='kw' phoneCode='965' name='Kuwait' lng1='46.541611' lat1='28.544359' lng2='48.419731' lat2='30.083879' />
+  <country code='kg' phoneCode='996' name='Kyrgyzstan' lng1='69.248901' lat1='39.191898' lng2='80.285477' lat2='43.2686' />
+  <country code='la' phoneCode='856' name='Lao People&apos;s Democratic Republic' lng1='' lat1='' lng2='' lat2='' />
+  <country code='lv' phoneCode='371' name='Latvia' lng1='20.986941' lat1='55.674999' lng2='28.237801' lat2='58.0844' />
+  <country code='lb' phoneCode='961' name='Lebanon' lng1='35.097061' lat1='33.063042' lng2='36.624981' lat2='34.689152' />
+  <country code='ls' phoneCode='266' name='Lesotho' lng1='27.014721' lat1='-30.65889' lng2='29.455549' lat2='-28.56945' />
+  <country code='lr' phoneCode='231' name='Liberia' lng1='-11.4987' lat1='4.351451' lng2='-7.367778' lat2='8.569677' />
+  <country code='ly' phoneCode='218' name='Libya' lng1='9.303886' lat1='19.497761' lng2='25.13423' lat2='33.165779' />
+  <country code='li' phoneCode='423' name='Liechtenstein' lng1='9.47583' lat1='47.049641' lng2='9.640949' lat2='47.266979' />
+  <country code='lt' phoneCode='370' name='Lithuania' lng1='20.93203' lat1='53.8881' lng2='26.8197' lat2='56.450802' />
+  <country code='lu' phoneCode='352' name='Luxembourg' lng1='5.731111' lat1='49.448318' lng2='6.522222' lat2='50.172211' />
+  <country code='mo' phoneCode='853' name='Macao' lng1='113.527496' lat1='22.0917' lng2='113.603897' lat2='22.214399' />
+  <country code='mk' phoneCode='389' name='Macedonia' lng1='20.46249' lat1='40.857021' lng2='23.031389' lat2='42.361401' />
+  <country code='mg' phoneCode='261' name='Madagascar' lng1='43.2211' lat1='-25.600281' lng2='50.499439' lat2='-11.94778' />
+  <country code='mw' phoneCode='265' name='Malawi' lng1='32.689701' lat1='-17.135811' lng2='35.92416' lat2='-9.373335' />
+  <country code='my' phoneCode='60' name='Malaysia' lng1='99.646927' lat1='0.853333' lng2='119.275803' lat2='7.356666' />
+  <country code='mv' phoneCode='960' name='Maldives' lng1='72.683601' lat1='-0.6908' lng2='73.753601' lat2='7.0964' />
+  <country code='ml' phoneCode='223' name='Mali' lng1='-12.24575' lat1='10.14194' lng2='4.2525' lat2='25.000271' />
+  <country code='mt' phoneCode='356' name='Malta' lng1='14.1808' lat1='35.799999' lng2='14.57' lat2='36.075001' />
+  <country code='mh' phoneCode='692' name='Marshall Islands' lng1='' lat1='' lng2='' lat2='' />
+  <country code='mr' phoneCode='222' name='Mauritania' lng1='-17.05435' lat1='14.72555' lng2='-4.806389' lat2='27.280199' />
+  <country code='mu' phoneCode='230' name='Mauritius' lng1='57.306381' lat1='-20.50584' lng2='57.78582' lat2='-20.00112' />
+  <country code='yt' phoneCode='262' name='Mayotte' lng1='' lat1='' lng2='' lat2='' />
+  <country code='mx' phoneCode='52' name='Mexico' lng1='-117.123596' lat1='14.54808' lng2='-86.74501' lat2='32.718319' />
+  <country code='fm' phoneCode='691' name='Micronesia' lng1='' lat1='' lng2='' lat2='' />
+  <country code='md' phoneCode='373' name='Moldova' lng1='26.635' lat1='45.4482' lng2='30.134199' lat2='48.486698' />
+  <country code='mc' phoneCode='377' name='Monaco' lng1='' lat1='' lng2='' lat2='' />
+  <country code='mn' phoneCode='976' name='Mongolia' lng1='87.759407' lat1='41.581379' lng2='119.928001' lat2='52.14201' />
+  <country code='me' phoneCode='382' name='Montenegro' lng1='18.4533' lat1='41.849319' lng2='20.382799' lat2='43.556099' />
+  <country code='ma' phoneCode='212' name='Morocco' lng1='-13.176931' lat1='27.665079' lng2='-1.010556' lat2='35.915272' />
+  <country code='mz' phoneCode='258' name='Mozambique' lng1='30.21277' lat1='-26.860279' lng2='40.839161' lat2='-10.48045' />
+  <country code='mm' phoneCode='95' name='Myanmar' lng1='92.193298' lat1='9.985552' lng2='101.161598' lat2='28.54694' />
+  <country code='na' phoneCode='264' name='Namibia' lng1='11.73333' lat1='-28.960831' lng2='25.265751' lat2='-16.968889' />
+  <country code='nr' phoneCode='674' name='Nauru' lng1='' lat1='' lng2='' lat2='' />
+  <country code='np' phoneCode='977' name='Nepal' lng1='80.055801' lat1='26.347771' lng2='88.195801' lat2='30.41971' />
+  <country code='nl' phoneCode='31' name='Netherlands' lng1='3.363889' lat1='50.756069' lng2='7.209444' lat2='53.509299' />
+  <country code='nc' phoneCode='687' name='New Caledonia' lng1='' lat1='' lng2='' lat2='' />
+  <country code='nz' phoneCode='64' name='New Zealand' lng1='165.566357' lat1='-50.85445' lng2='178.559693' lat2='-33.069679' />
+  <country code='ni' phoneCode='505' name='Nicaragua' lng1='-87.690292' lat1='10.70972' lng2='-83.130867' lat2='15.02472' />
+  <country code='ne' phoneCode='227' name='Niger' lng1='0.166667' lat1='11.69169' lng2='15.99666' lat2='23.52232' />
+  <country code='ng' phoneCode='234' name='Nigeria' lng1='2.682129' lat1='4.281943' lng2='14.67416' lat2='13.89313' />
+  <country code='nu' phoneCode='683' name='Niue' lng1='' lat1='' lng2='' lat2='' />
+  <country code='no' phoneCode='47' name='Norway' lng1='-9.120001' lat1='57.996101' lng2='33.624989' lat2='80.513313' />
+  <country code='om' phoneCode='968' name='Oman' lng1='51.904148' lat1='16.64386' lng2='59.836101' lat2='25.039221' />
+  <country code='pk' phoneCode='92' name='Pakistan' lng1='60.866871' lat1='23.688049' lng2='77.831413' lat2='37.062759' />
+  <country code='pw' phoneCode='680' name='Palau' lng1='' lat1='' lng2='' lat2='' />
+  <country code='pa' phoneCode='507' name='Panama' lng1='-83.031677' lat1='7.205832' lng2='-77.146668' lat2='9.620277' />
+  <country code='pg' phoneCode='675' name='Papua New Guinea' lng1='140.849899' lat1='-11.62028' lng2='153.776306' lat2='-1.950556' />
+  <country code='py' phoneCode='595' name='Paraguay' lng1='-62.63866' lat1='-27.586121' lng2='-54.243061' lat2='-19.296671' />
+  <country code='pe' phoneCode='51' name='Peru' lng1='-81.3564' lat1='-18.34799' lng2='-68.6875' lat2='-0.0375' />
+  <country code='ph' phoneCode='63' name='Philippines' lng1='117.1744' lat1='5.051388' lng2='126.598' lat2='18.647499' />
+  <country code='pn' phoneCode='870' name='Pitcairn' lng1='' lat1='' lng2='' lat2='' />
+  <country code='pl' phoneCode='48' name='Poland' lng1='14.13333' lat1='49.006351' lng2='24.14471' lat2='54.836651' />
+  <country code='pt' phoneCode='351' name='Portugal' lng1='-28.54945' lat1='32.637489' lng2='-6.194444' lat2='42.15221' />
+  <country code='pr' phoneCode='1' name='Puerto Rico' lng1='-67.25917' lat1='17.928049' lng2='-65.625839' lat2='18.511391' />
+  <country code='qa' phoneCode='974' name='Qatar' lng1='50.752491' lat1='24.55559' lng2='51.61166' lat2='26.152769' />
+  <country code='ro' phoneCode='40' name='Romania' lng1='20.261141' lat1='43.624699' lng2='29.701111' lat2='26.152769' />
+  <country code='ru' phoneCode='7' name='Russian Federation' lng1='26.970313' lat1='41.196098' lng2='180' lat2='26.152769' />
+  <country code='rw' phoneCode='250' name='Rwanda' lng1='28.853319' lat1='-2.826667' lng2='30.876381' lat2='26.152769' />
+  <country code='bl' phoneCode='590' name='Saint Barthélemy' lng1='-5.793568' lat1='-16.021259' lng2='-5.643567' lat2='26.152769' />
+  <country code='ws' phoneCode='685' name='Samoa' lng1='-172.774994' lat1='-14.05306' lng2='-171.436707' lat2='26.152769' />
+  <country code='sm' phoneCode='378' name='San Marino' lng1='12.405131' lat1='43.894595' lng2='12.508419' lat2='26.152769' />
+  <country code='st' phoneCode='239' name='Sao Tome And Principe' lng1='6.464999' lat1='0.02' lng2='7.4642' lat2='26.152769' />
+  <country code='sa' phoneCode='966' name='Saudi Arabia' lng1='34.603039' lat1='15.10555' lng2='56.51305' lat2='26.152769' />
+  <country code='sn' phoneCode='221' name='Senegal' lng1='-17.52' lat1='12.30139' lng2='-11.35833' lat2='26.152769' />
+  <country code='rs' phoneCode='381' name='Serbia' lng1='18.8281' lat1='42.232201' lng2='23.006941' lat2='26.152769' />
+  <country code='sc' phoneCode='248' name='Seychelles' lng1='55.374699' lat1='-4.7892' lng2='55.792801' lat2='26.152769' />
+  <country code='sl' phoneCode='232' name='Sierra Leone' lng1='-13.298431' lat1='6.913198' lng2='-10.26652' lat2='26.152769' />
+  <country code='sg' phoneCode='65' name='Singapore' lng1='103.648002' lat1='1.259722' lng2='103.998001' lat2='26.152769' />
+  <country code='sk' phoneCode='421' name='Slovakia' lng1='16.84083' lat1='47.740822' lng2='22.558001' lat2='26.152769' />
+  <country code='si' phoneCode='386' name='Slovenia' lng1='13.38305' lat1='45.425598' lng2='16.60924' lat2='26.152769' />
+  <country code='sb' phoneCode='677' name='Solomon Islands' lng1='154.5336' lat1='-11.84584' lng2='162.386597' lat2='26.152769' />
+  <country code='so' phoneCode='252' name='Somalia' lng1='40.986309' lat1='-1.674361' lng2='54.5336' lat2='26.152769' />
+  <country code='za' phoneCode='27' name='South Africa' lng1='16.469721' lat1='-34.814999' lng2='32.893089' lat2='26.152769' />
+  <country code='es' phoneCode='34' name='Spain' lng1='-17.99501' lat1='27.73472' lng2='4.336666' lat2='26.152769' />
+  <country code='lk' phoneCode='94' name='Sri Lanka' lng1='79.698303' lat1='5.943609' lng2='81.890533' lat2='26.152769' />
+  <country code='sh' phoneCode='290' name='Saint Helena, Ascension And Tristan Da Cunha' lng1='' lat1='' lng2='' lat2='26.152769' />
+  <country code='pm' phoneCode='508' name='Saint Pierre And Miquelon' lng1='' lat1='' lng2='' lat2='26.152769' />
+  <country code='sd' phoneCode='249' name='Sudan' lng1='21.828251' lat1='3.49214' lng2='38.621319' lat2='26.152769' />
+  <country code='sr' phoneCode='597' name='Suriname' lng1='-58.071671' lat1='1.849444' lng2='-53.98444' lat2='26.152769' />
+  <country code='sz' phoneCode='268' name='Swaziland' lng1='30.80222' lat1='-27.31667' lng2='32.13422' lat2='26.152769' />
+  <country code='se' phoneCode='46' name='Sweden' lng1='11.10694' lat1='55.001099' lng2='24.16707' lat2='26.152769' />
+  <country code='ch' phoneCode='41' name='Switzerland' lng1='5.965833' lat1='45.823879' lng2='10.48861' lat2='26.152769' />
+  <country code='sy' phoneCode='963' name='Syrian Arab Republic' lng1='' lat1='' lng2='' lat2='26.152769' />
+  <country code='tw' phoneCode='886' name='Taiwan, Province Of China' lng1='120.053299' lat1='21.903049' lng2='121.999199' lat2='26.152769' />
+  <country code='tj' phoneCode='992' name='Tajikistan' lng1='67.3647' lat1='36.672211' lng2='75.18747' lat2='26.152769' />
+  <country code='tz' phoneCode='255' name='Tanzania' lng1='29.59055' lat1='-11.72695' lng2='40.45332' lat2='26.152769' />
+  <country code='th' phoneCode='66' name='Thailand' lng1='97.34581' lat1='5.631942' lng2='105.634399' lat2='26.152769' />
+  <country code='tg' phoneCode='228' name='Togo' lng1='-0.150955' lat1='6.099102' lng2='1.799956' lat2='26.152769' />
+  <country code='tk' phoneCode='690' name='Tokelau' lng1='' lat1='' lng2='' lat2='' />
+  <country code='to' phoneCode='676' name='Tonga' lng1='-175.360596' lat1='-21.454201' lng2='-173.906097' lat2='26.152769' />
+  <country code='tn' phoneCode='216' name='Tunisia' lng1='7.491666' lat1='30.236059' lng2='11.58333' lat2='26.152769' />
+  <country code='tr' phoneCode='90' name='Turkey' lng1='26.03331' lat1='35.821659' lng2='44.82193' lat2='26.152769' />
+  <country code='tm' phoneCode='993' name='Turkmenistan' lng1='52.443321' lat1='35.145538' lng2='66.672501' lat2='26.152769' />
+  <country code='tv' phoneCode='688' name='Tuvalu' lng1='178.842178' lat1='-8.128861' lng2='179.383103' lat2='26.152769' />
+  <country code='ae' phoneCode='971' name='United Arab Emirates' lng1='50.826099' lat1='22.057159' lng2='56.37582' lat2='26.152769' />
+  <country code='ug' phoneCode='256' name='Uganda' lng1='29.578329' lat1='-1.464444' lng2='35.026089' lat2='26.152769' />
+  <country code='gb' phoneCode='44' name='United Kingdom' lng1='-8.164723' lat1='49.955269' lng2='1.7425' lat2='26.152769' />
+  <country code='ua' phoneCode='380' name='Ukraine' lng1='' lat1='' lng2='' lat2='' />
+  <country code='uy' phoneCode='598' name='Uruguay' lng1='' lat1='' lng2='' lat2='' />
+  <country code='us' phoneCode='1' name='United States' lng1='-178.214203' lat1='18.536892' lng2='-48.466812' lat2='26.152769' />
+  <country code='uz' phoneCode='998' name='Uzbekistan' lng1='55.9972' lat1='37.185261' lng2='73.172997' lat2='26.152769' />
+  <country code='vu' phoneCode='678' name='Vanuatu' lng1='' lat1='' lng2='169.483902' lat2='26.152769' />
+  <country code='va' phoneCode='39' name='Vatican City State' lng1='' lat1='' lng2='' lat2='' />
+  <country code='ve' phoneCode='58' name='Venezuela' lng1='-73.383903' lat1='0.649722' lng2='-59.801392' lat2='26.152769' />
+  <country code='vn' phoneCode='84' name='Viet Nam' lng1='102.140503' lat1='8.574163' lng2='109.459099' lat2='26.152769' />
+  <country code='wf' phoneCode='681' name='Wallis And Futuna' lng1='' lat1='' lng2='' lat2='' />
+  <country code='ye' phoneCode='967' name='Yemen' lng1='42.61388' lat1='12.59972' lng2='53.078251' lat2='26.152769' />
+  <country code='zm' phoneCode='260' name='Zambia' lng1='21.998329' lat1='-18.075279' lng2='33.693039' lat2='26.152769' />
+  <country code='zw' phoneCode='263' name='Zimbabwe' lng1='25.23666' lat1='-22.41614' lng2='33.07304' lat2='26.152769' />
+</countries>

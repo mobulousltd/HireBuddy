@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <item android:top="-5dp" android:right="-5dp" android:left="-5dp">
+        <shape>
+            <solid android:color="@android:color/transparent" />
+            <!--to show dotted-->
+            <stroke
+                android:dashGap="11px"
+                android:width="2dp"
+                android:color="@color/yellow" />
+            <!--<stroke-->
+                <!--android:dashWidth="100px"-->
+                <!--android:width="1dp"-->
+                <!--android:color="@color/back" />-->
+        </shape>
+    </item>
+
+</layer-list>

@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/background_color_profile">
+
+<LinearLayout
+    android:id="@+id/activity_key_code_veri"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:textColor="@color/white"
+        android:background="@color/header"
+        android:textSize="@dimen/sp_20"
+        android:text="@string/key_code_verification"
+        android:gravity="center"
+        android:padding="@dimen/dp_10"
+        android:drawableEnd="@drawable/info"/>
+
+    <TextView
+        android:layout_marginStart="@dimen/dp_15"
+        android:layout_marginTop="@dimen/dp_25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="@dimen/sp_16"
+        android:text="@string/gkc"/>
+
+    <!--<TextView-->
+        <!--android:id="@+id/tv_generate_code"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="H\tB\t8\t6\t6\t8"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:textColor="@color/black"-->
+        <!--android:textSize="@dimen/sp_16"-->
+        <!--android:visibility="visible"-->
+        <!--android:layout_marginTop="@dimen/dp_20"-->
+        <!--android:cursorVisible="true"-->
+        <!--/>-->
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/dp_10"
+        android:id="@+id/ll_code"
+        android:visibility="gone"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"/>
+
+    <TextView
+        android:id="@+id/tv_refresh_code"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/refresh_code"
+        android:layout_gravity="center"
+        android:textColor="@color/yellow"
+        android:layout_margin="@dimen/dp_10"
+        android:visibility="gone"
+        android:paddingTop="@dimen/dp_10"/>
+
+    <Button
+        android:id="@+id/btn_generate"
+        style="@style/ButtonfillStyle"
+        android:text="@string/generate"
+        android:visibility="visible"
+        android:layout_marginTop="@dimen/dp_30"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:layout_width="@dimen/dp_200"
+        android:layout_height="wrap_content"
+        android:background="@drawable/fill_button_pressed_selector"
+        />
+
+    <TextView
+        android:layout_marginTop="@dimen/dp_20"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="@string/uploadpho"
+        android:textSize="@dimen/sp_16"
+        android:background="@color/grey"
+        android:paddingStart="@dimen/dp_15"
+        android:paddingTop="@dimen/dp_5"
+        android:paddingBottom="@dimen/dp_5"
+        />
+    <TextView
+        android:layout_margin="@dimen/dp_20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:textSize="@dimen/sp_16"
+        android:text="@string/tacs"/>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <ImageView
+        android:id="@+id/img_kcv_ui"
+        android:layout_margin="@dimen/dp_10"
+        android:layout_width="@dimen/dp_77"
+        android:layout_height="@dimen/dp_90"
+        android:src="@drawable/dummy_file"
+        android:scaleType="fitXY"
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/img_kcv_ui"
+        android:layout_toRightOf="@+id/img_kcv_ui">
+        <TextView
+            android:id="@+id/txt_image_key_code"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/dp_40"
+            android:text="@string/nfs"
+            android:layout_centerVertical="true"
+            android:textColor="@color/black"
+            android:textSize="@dimen/sp_16"
+            />
+        <TextView
+            android:id="@+id/txt_keycoddoc_remove"
+            android:layout_width="@dimen/dp_30"
+            android:layout_height="@dimen/dp_30"
+            android:layout_centerVertical="true"
+            android:text="x"
+            android:background="@drawable/circle"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_marginTop="@dimen/dp_10"
+            android:layout_marginRight="@dimen/dp_10"
+            android:textColor="@color/yellow"
+            android:textSize="@dimen/sp_20" />
+    </RelativeLayout>
+
+    </RelativeLayout>
+
+    <Button
+        android:layout_marginTop="@dimen/dp_20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/ButtonStyle"
+        android:textColor="@color/back"
+        android:layout_gravity="center_horizontal"
+        android:paddingStart="@dimen/dp_80"
+        android:paddingEnd="@dimen/dp_80"
+        android:text="@string/finish"
+        android:background="@drawable/fill_button_pressed_selector"
+        android:id="@+id/button_done_key_code"
+        android:onClick="doneKeyCodeVeri"
+        />
+
+    <TextView
+        android:id="@+id/txt_skip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="@string/skip"
+        android:layout_gravity="center_horizontal"
+        android:textSize="@dimen/sp_16"
+        android:padding="@dimen/dp_10"
+        android:layout_marginTop="@dimen/_15sdp"
+        />
+</LinearLayout>
+</ScrollView>
