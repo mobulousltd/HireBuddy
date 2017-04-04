@@ -215,9 +215,6 @@ public class IdProofActivity extends AppCompatActivity implements AdapterView.On
                 edt_eyq_addproof.setVisibility(View.GONE);
             }
         }
-
-
-
     }
 
     public void onNothingSelected(AdapterView<?> arg0) {

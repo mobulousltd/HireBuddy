@@ -18,13 +18,11 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.hirebuddy.R;
 import com.hirebuddy.sharedprefrences.SPreferenceKey;
 import com.hirebuddy.sharedprefrences.SharedPreferenceWriter;
 import com.hirebuddy.util.TakeImage;
-import com.hirebuddy.util.TakeImage2;
 
 import java.io.File;
 
