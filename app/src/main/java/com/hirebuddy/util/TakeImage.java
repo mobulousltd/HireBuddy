@@ -44,14 +44,12 @@ public class TakeImage extends Activity{
 	Uri imageFileUri;
 	String type="";
 	private int value;
-
+	private String newPath = "";
 
 	public TakeImage(){
-
 	}
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
-
 		super.onCreate(savedInstanceState);
 		Bundle b = getIntent().getExtras();
 		type=getIntent().getExtras().getString("type");
@@ -190,12 +188,12 @@ public class TakeImage extends Activity{
 						savebitmap(bm, path);
 //					setImageCrop(path, 0);
 						cursor.close();
-					String newpath=SaveImage(bm);
-					if(newpath!=null)
+					newPath = SaveImage(bm);
+					if(newPath !=null)
 					{
-						path=newpath;
+						path=newPath;
 						Log.i("File path", ""+path);
-						runCropImage(newpath);
+						runCropImage(newPath);
 
 //					}
 //						Intent intent = new Intent();
@@ -471,13 +469,12 @@ public class TakeImage extends Activity{
 		Intent intent = new Intent(this, CropImage.class);// create explicit intent
 		intent.putExtra(CropImage.IMAGE_PATH, path);// tell CropImage activity to look for image to crop
 		intent.putExtra(CropImage.SCALE, false);// allow CropImage activity to rescale image
-//		intent.putExtra(CropImage.ASPECT_X, value);// if the aspect ratio is fixed to ratio 3/2
-//		intent.putExtra(CropImage.ASPECT_Y, 1);
+		intent.putExtra(CropImage.ASPECT_X, 3);// if the aspect ratio is fixed to ratio 3/2
+		intent.putExtra(CropImage.ASPECT_Y, 4);
 //		if(x>400 && y>400){
 //			intent.putExtra(CropImage.OUTPUT_X,400);
 //			intent.putExtra(CropImage.OUTPUT_Y, 400);
 //		}
 		startActivityForResult(intent, RESULT_CROP);// start activity CropImage with certain request code and listen    // for result
 	}
-
 }

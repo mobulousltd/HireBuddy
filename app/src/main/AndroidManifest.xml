@@ -176,7 +176,8 @@
         </provider>
 
         <activity android:name=".util.TakeImage2"/>
-
+        <activity android:name=".activity.ProfileActivity$GalleryUtil"/>
+        <activity android:name=".activity.ProfileActivity$ImageSelecter"/>
 
     </application>
 

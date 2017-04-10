@@ -1,14 +1,18 @@
 package com.hirebuddy.activity;
 
 import android.annotation.SuppressLint;
+import android.app.Activity;
 import android.app.DatePickerDialog;
 import android.app.Dialog;
+import android.content.ActivityNotFoundException;
 import android.content.Context;
 import android.content.Intent;
+import android.database.Cursor;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.drawable.ColorDrawable;
 import android.net.Uri;
+import android.provider.MediaStore;
 import android.renderscript.Allocation;
 import android.renderscript.Element;
 import android.renderscript.RenderScript;
@@ -17,8 +21,13 @@ import android.support.design.widget.Snackbar;
 import android.support.design.widget.TextInputLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.Toolbar;
+import android.util.Log;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.Window;
+import android.widget.Button;
 import android.widget.DatePicker;
 import android.widget.EditText;
 import android.widget.ImageView;
@@ -55,7 +64,14 @@ public class ProfileActivity extends AppCompatActivity implements View.OnClickLi
     ImageView circular_image_pofile;
     private int i;
     boolean circular;
+    private ImageView img_coveruicon;
+    private String filePath;
+//    **********************CROP IMAGE********************
+    private Intent cropIntent;
+    private Uri uri;
 
+
+//    ******************************CROP IMAGE**************************
     // LISTENER FOR DATE PICKER
     // WHEN DATE SELECTED
     DatePickerDialog.OnDateSetListener listener = new DatePickerDialog.OnDateSetListener() {
@@ -170,9 +186,12 @@ public class ProfileActivity extends AppCompatActivity implements View.OnClickLi
         circular_image_pofile = (ImageView) findViewById(R.id.circular_image_pofile);
         circular_image_pofile.setOnClickListener(this);
         txt_dob.setOnClickListener(this);
+        Toolbar toolbar = (Toolbar) findViewById(R.id.tool_bar);
+        setSupportActionBar(toolbar);
 
         img_backimage = (ImageView) findViewById(R.id.img_backimage);
-        findViewById(R.id.img_coveruicon).setOnClickListener(this);
+        img_coveruicon = (ImageView) findViewById(R.id.img_coveruicon);
+        img_coveruicon .setOnClickListener(this);
 //        img_backimage.setOnClickListener(this);
 
         ll_dob = (LinearLayout) findViewById(R.id.ll_dob);
@@ -190,7 +209,6 @@ public class ProfileActivity extends AppCompatActivity implements View.OnClickLi
         datePickerDialog = new DatePickerDialog(this, listener, calendar.get(Calendar.YEAR), calendar.get(Calendar.MONTH), calendar.get(Calendar.DAY_OF_MONTH) - 29);
         calendar.add(Calendar.YEAR, -15);
         datePickerDialog.getDatePicker().setMaxDate(calendar.getTimeInMillis());
-
     }
 
     //NEXT BUTTON LISTENER
@@ -285,7 +303,6 @@ public class ProfileActivity extends AppCompatActivity implements View.OnClickLi
 //            MyToast.show(this, radioButton.getText()+"", false);
         }
     }
-//    *****************************************************************************
 
 
 //second parametre is radius
@@ -341,7 +358,7 @@ public class ProfileActivity extends AppCompatActivity implements View.OnClickLi
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         if (data != null) {
-            String filePath = data.getExtras().getString("filePath");
+            filePath = data.getExtras().getString("filePath");
             if (filePath != null) {
 
                 Bitmap blurred = blurRenderScript(this, BitmapFactory.decodeFile(filePath), 10);
@@ -353,7 +370,59 @@ public class ProfileActivity extends AppCompatActivity implements View.OnClickLi
                     img_backimage.setImageURI(Uri.fromFile(new File(filePath)));
 //                    img_backimage.setImageBitmap(blurred);
                 }
+                else if (i == 3)
+                {
+                    img_backimage.setImageURI(Uri.fromFile(new File(filePath)));
+//                    cropImage(Uri.fromFile(new File(filePath)));
+                }
             }
         }
+    }
+
+//    ********************************CROP IMAGE**************************
+private void cropImage(Uri imageUri) {
+
+    try {
+        cropIntent = new Intent("com.android.camera.action.CROP");
+        cropIntent.setDataAndType(imageUri, "image/*");
+        cropIntent.putExtra("crop", "true");
+        cropIntent.putExtra("outputX", 480);
+        cropIntent.putExtra("outputY", 480);
+        cropIntent.putExtra("aspectX", 3);
+        cropIntent.putExtra("aspectY", 4);
+        cropIntent.putExtra("scaleUpIfNeeded", true);
+        cropIntent.putExtra("return-data", true);
+        startActivityForResult(cropIntent, 3);
+
+    } catch (ActivityNotFoundException e)
+    {
+
+    }
+
+}
+
+//****************HANDING MENU*************************
+
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.profile_menu, menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId())
+        {
+            case R.id.save:
+//                img_backimage.setImageURI(Uri.fromFile(new File(filePath)));
+                return true;
+            case R.id.crop:
+                if (filePath != null) {
+                    cropImage(Uri.fromFile(new File(filePath)));
+                }
+                return true;
+        }
+        return super.onOptionsItemSelected(item);
     }
 }
